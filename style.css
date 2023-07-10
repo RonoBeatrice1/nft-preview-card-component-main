@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  overflow-x: hidden;
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  padding: 30px;
+  margin: 30px;
+  border-radius: 8px;
+}
+.img img {
+  width: 100%;
+  border-radius: 8px;
+  border: 20px;
+}
+.text {
+  text-align: left;
+}
+.text .top-text h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* padding: 20px; */
+}
+.text .top-text p {
+  color: hsl(215, 32%, 27%);
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 1.4rem;
+}
+.dets {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin-right: 0.5rem;
+}
+.eth-dets {
+  color: cyan;
+  font-weight: 600;
+}
+.eth-dets2 {
+  color: hsl(215, 32%, 27%);
+}
+.text {
+  border-bottom: solid hsl(215, 32%, 27%) 2px;
+  margin-bottom: 20px;
+}
+
+.creator-info {
+  display: flex;
+  padding-top: 1rem;
+  align-items: center;
+}
+.creator-info img {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 2rem;
+  height: auto;
+  margin-right: 1rem;
+}
+.c-text {
+  font-weight: 400;
+}
+.c-name {
+  color: hsl(215, 32%, 27%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+@media (min-width: 700px) {
+  .container {
+    justify-content: center;
+  }
+
+  .card {
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    margin: 160px auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 1.5rem;
+    color: hsl(0, 0%, 100%);
+  }
+  .attribution {
+    margin-bottom: 160px;
+  }
+}
